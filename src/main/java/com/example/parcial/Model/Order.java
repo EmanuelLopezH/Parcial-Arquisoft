@@ -31,8 +31,8 @@ public class Order {
     private Date deliveryDate;
 
     @ApiModelProperty(notes = "Id del cliente")
-    @Column(name = "CLIENT_ID")
-    private Long clientId;
+    @Column(name = "CLIENT_NAME")
+    private String clientName;
 
     @ApiModelProperty(notes = "Direccion")
     @Column(name = "ADDRESS")

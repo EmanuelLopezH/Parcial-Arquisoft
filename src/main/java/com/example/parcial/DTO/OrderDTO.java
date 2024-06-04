@@ -1,16 +1,20 @@
 package com.example.parcial.DTO;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
+
+import java.util.Date;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class OrderDTO {
 
     private String status;
     private String name;
     private String address;
-    private String deliveryDate;
+    private Date deliveryDate;
 
 }
